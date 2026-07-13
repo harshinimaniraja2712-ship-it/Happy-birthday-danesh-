@@ -157,3 +157,47 @@ button:hover {
     color: black;
     box-shadow: 0 0 30px #D4AF37;
 }
+.story {
+    min-height: 100vh;
+    padding: 80px 20px;
+    background: #090000;
+    text-align: center;
+}
+
+
+.story h2 {
+    color: #D4AF37;
+    font-size: 45px;
+    text-shadow: 0 0 15px #D4AF37;
+}
+
+
+.story p {
+    color: #f5f5f5;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+
+.memory-card {
+    background: rgba(90, 0, 24, 0.5);
+    border: 1px solid #D4AF37;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 500px;
+    transition: 0.5s;
+}
+
+
+.memory-card h3 {
+    color: #D4AF37;
+    font-size: 30px;
+}
+
+
+.memory-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #D4AF37;
+}
