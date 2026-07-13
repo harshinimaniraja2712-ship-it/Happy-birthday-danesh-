@@ -69,6 +69,32 @@ body {
     animation: fall 8s linear infinite;
 }
 
+.rose:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.rose:nth-child(2) {
+    left: 30%;
+    animation-delay: 2s;
+}
+
+.rose:nth-child(3) {
+    left: 50%;
+    animation-delay: 4s;
+}
+
+.rose:nth-child(4) {
+    left: 70%;
+    animation-delay: 1s;
+}
+
+.rose:nth-child(5) {
+    left: 90%;
+    animation-delay: 3s;
+}
+}
+
 @keyframes fall {
     0% {
         transform: translateY(-50px) rotate(0deg);
